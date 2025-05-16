@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>My First Form</h2>
+  <form>
+    <div>
+      <input type="radio" name="gender" value="male" id="male">
+      <label for="male">Άντρας</label>
+      <input type="radio" name="gender" id="female" value="female" checked>
+      <label for="female">Γυναίκα</label>
+    </div>
+
+    <div>
+      <input type="checkbox" name="vehicle1" value="bike" id="bicycle" checked>
+      <label for="bicycle">Ποδήλατο</label>
+      <input type="checkbox" name="vahicle2" value="motorcycle" id="motorcycle">
+      <label for="motorcycle">Μοτοσυκλέτα</label>
+      <input type="checkbox" name="vehicle3" value="car" id="car">
+      <label for="car">Αυτοκίνητο</label>
+    </div>
+
+    <div>
+      <label for="nationality">Υπηκοότητα</label>
+      <select name="nationality" id="nationality">
+        <option value="" disabled hidden selected>Επιλέξτε Υπηκοότητα</option>
+        <option value="greek">Ελλάδα</option>
+        <option value="english">Αγγλία</option>
+        <option value="spanish">Ισπανία</option>
+      </select>
+    </div>
+    
+    <fieldset>
+      <legend>Προσωπικά Στοιχεία</legend>
+      <div>
+        <label for="firstname">Όνομα</label>
+        <input type="text" name="firstname" id="firstname" required minlength="5" maxlength="20" placeholder="Συμπληρώστε το όνομα">
+      </div>
+      <div>
+        <label for="lastname">Επώνυμο</label>
+        <input type="text" name="lastname" id="lastname">
+      </div>
+      <div>
+        <label for="workExperience">Χρόνια προϋπηρεσίας</label>
+        <input type="number" name="work-experience" id="workExperience" min="3" max="20">
+      </div>
+      <div>
+        <label for="birthday">Χρονολογία Γέννησης</label>
+        <input type="date" name="birthday" id="birthday">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+    </fieldset>
+
+    <div>
+      <label for="message">Γράψτε το μήνυμα σας</label>
+      <textarea name="message" id="message" rows="10" cols="30"></textarea>
+    </div>
+
+    <div>
+      <input type="submit" value="Υποβολή">
+    </div>
+  </form>
+
+  <nav>Navigation Menu</nav>
+  <footer>Footer</footer>
+  <section></section>
+  <header></header>
+</body>
+</html>

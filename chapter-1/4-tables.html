@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+  <style>
+    table, th, td {
+      border:1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h3>Tables in HTML</h3>
+
+  <table>
+    <caption>Lessons Program</caption>
+    <tr>
+      <td>Μάθημα</td>
+      <td>Καθηγητής</td>
+      <td>Μέρα/Ώρα</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>Thanasis</td>
+      <td>Modnay 18:00-21:00</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Markos</td>
+      <td>Thursday 18:00-21:00</td>
+    </tr>
+  </table>
+
+  <p>Table with headers</p>
+  <table>
+    <tr>
+      <th>Lesson</th>
+      <th>Teacher</th>
+      <th>Day/Time</th>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>Thanasis</td>
+      <td>Monday</td>
+    </tr>
+  </table>
+
+  <!-- Table -->
+  <p>Table with thead, tbody, tfoot</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Lesson</th>
+        <th>Teacher</th>
+        <th>Day</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Java</td>
+        <td>Thanasis</td>
+        <td>Monday</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Markos</td>
+        <td>Thursday</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Pragramming</td>
+        <td>Coding Factory</td>
+        <td>Days</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <p>Table Colspan</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Lesson</th>
+        <th>Teacher</th>
+        <th>Day</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- <td>Learnig Programming</td>
+        <td>-</td>
+        <td>-</td> -->
+        <td colspan="3">Learnig Programming</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>Thanasis</td>
+        <td>Monday</td>
+      </tr>
+      <tr>
+        <td rowspan="2">HTML</td>
+        <td>Markos</td>
+        <td>Thursday</td>
+      </tr>
+      <tr>
+        <!-- <td>HTML</td> -->
+        <td>Markos</td>
+        <td>Friday</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- table>tr*3>td*4 -->
+  <table>
+    <tr>
+      <td>markos coding factory</td>
+      <td>markos coding factory</td>
+      <td>markos coding factory</td>
+      <td>markos coding factory</td>
+    </tr>
+    <tr>
+      <td>markos</td>
+      <td>markos</td>
+      <td>markos</td>
+      <td>markos</td>
+    </tr>
+    <tr>
+      <td>markos</td>
+      <td>markos</td>
+      <td>markos</td>
+      <td>markos</td>
+    </tr>
+  </table>
+  <!-- Επιλογή πολλαπλών γραμμών 
+    1. alt + mouse click
+    2. cntl + alt + down arrow από πληκτρολόγιο 
+  -->
+</body>
+</html>
