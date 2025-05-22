@@ -1,0 +1,80 @@
+body {
+  background-color: lightgrey;
+}
+
+p, li {
+  color: white;
+  background-color: pink;
+}
+
+li {
+  list-style-type: square;
+}
+
+.aueb-text {
+  color: black;
+  background-color: aqua;
+}
+
+.aueb-logo {
+  width:800px;
+}
+
+img.aueb-logo {
+  border: 2px solid red;
+  height: auto;
+}
+
+p.aueb-logo {
+  border: 2px solid blue;
+}
+
+#auebText {
+  border: 2px solid green
+}
+
+ul > li {
+  color: blue;
+}
+
+ul strong {
+  background-color: aqua;
+}
+
+ul em {
+  background-color: beige;
+}
+
+ul {
+  background-color: blueviolet;
+}
+
+li {
+  background-color: blueviolet;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:focus {
+  outline: none;
+  background-color: red;
+}
+
+a:hover{
+  background-color: green;
+}
+
+/* Styling for Navbar */
+a:active {
+  background-color: orange;
+  color:white;
+}
+
+/* Stiling for Main Page */

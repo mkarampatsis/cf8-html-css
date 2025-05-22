@@ -1,0 +1,16 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  border: 1px solid black;
+  width: 80%
+}
+
+.bg-dark {
+ background-color: black; 
+}
+
+.text-white {
+  color:white;
+}
