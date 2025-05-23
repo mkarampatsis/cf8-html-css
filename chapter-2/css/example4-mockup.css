@@ -7,10 +7,81 @@ body {
   width: 80%
 }
 
+.container-fluid {
+  border: 1px solid black;
+  width: 95%;
+}
+
+.aueb-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: yellow;
+}
+
+/* Background Colors */
 .bg-dark {
  background-color: black; 
 }
 
+.bg-primary {
+  background-color: blue;
+}
+
+.bg-aquamarine {
+  background-color: aquamarine;
+}
+
+/* Font Colors */
 .text-white {
   color:white;
+}
+
+.text-beige {
+  color: beige
+}
+
+/* Image Styling */
+.icon-small {
+  width: 150px;
+  height: auto;
+}
+
+/* List Styling */
+/* .courses-wrapper {
+  background-color: aquamarine;
+} */
+
+.course-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: beige;
+}
+
+/* Selectors */
+ul > :first-child {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+ul > :nth-child(3) {
+  background-color: green;
+  font-weight: bold;
+}
+
+ul > :nth-child(odd){
+  text-decoration: underline;
+}
+
+ul > :nth-child(even) {
+text-decoration: line-through;
+}
+
+.container > h2:first-of-type {
+  font-size: 2rem;
+}
+
+.container > p:nth-of-type(2) {
+  font-size: 2rem;
 }
