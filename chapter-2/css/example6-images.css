@@ -1,0 +1,52 @@
+.city {
+  width: 600px;
+  height: auto;
+}
+
+.img-rounded {
+  border-radius: 10px;
+}
+
+.img-circle {
+  width:500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.thumbnail {
+  width: 150px;
+  height: auto;
+  border: 2px double rgb(177,174,174);
+}
+
+.thumbnail:hover {
+  box-shadow: 2px 2px 3px red;
+  width: 160px;
+  height: auto;
+}
+
+.card{
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px blue;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-image {
+  width:100%;
+  height: auto;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.london-bg {
+  height: 800px;
+  background-image: url('../../img/london.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
