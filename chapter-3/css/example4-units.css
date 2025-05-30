@@ -1,0 +1,13 @@
+body {
+  font-size: 22px;
+}
+
+.ems {
+  /* Body font-size * 1.3 (22px *1.3) */
+  font-size: 1.3em;
+}
+
+.rems {
+  /* Root font-size * 1.3 (16px * 1.3) */
+  font-size: 1.3rem;
+}
