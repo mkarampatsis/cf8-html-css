@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 .container {
   width: 800px;
@@ -49,7 +54,8 @@ tbody tr:hover {
 ul {
   background-color: lightblue;
   /* width:500px; */
-  width: 98%;
+  width: 100%;
+  padding-left: 20px;
 }
 
 ul li {
@@ -59,4 +65,5 @@ ul li {
 
 li {
   list-style-type: square;
+  /* list-style: none; */
 }

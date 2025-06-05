@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/example8-payment-form.css">
+</head>
+<body>
+  <div class="container mt-20 p-10">
+    <form>
+      <h1>Payment Form</h1>
+      <p>
+        Required Fields
+        <strong><abbr title="required">*</abbr></strong>
+      </p>
+
+      <div class="mt-20" aria-labelledby="personal">
+        <h2 id="personal">Personal Info</h2>
+        <fieldset>
+          <legend>Title</legend>
+
+          <div>
+            <input type="radio" id="mr" value="Mr">
+            <label for="mr">Mr.</label>
+          </div>
+
+          <div>
+            <input type="radio" id="mrs" value="Mrs">
+            <label for="mrs">Mrs.</label>
+          </div>
+        </fieldset>
+
+        <div>
+          <label for="mail">
+            <span>Email</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="email" id="mail">
+        </div>
+
+        <div>
+          <label for="password">
+            <span>Password</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="password" id="password">
+        </div>
+        
+      </div>
+
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+/* margins */
+.mt-20 {
+  margin-top:20px;
+}
+
+/* paddings */
+.p-10 {
+  padding: 10px;
+}
