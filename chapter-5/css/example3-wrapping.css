@@ -1,0 +1,13 @@
+.container {
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div[class^="box"] {
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px;
+  background-color: bisque;
+}
