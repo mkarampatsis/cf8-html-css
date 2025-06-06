@@ -1,0 +1,33 @@
+.container {
+  width:900px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+div[class^="box"] {
+  width:60px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: bisque;
+  border:1px solid black
+}
+
+.box1, .box2, .box3, .box5, .box6 {
+  flex: 1
+}
+
+.box4 {
+  flex: 2
+}
+
+.box5 {
+  flex: 3
+}
+
+.box1 {
+  flex: initial
+} 
