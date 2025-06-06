@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  height: 120px;
+  width: auto;
+}
+
+.header {
+  display: flex;
+  background-color: #762124;
+}
+
+.nav {
+  width: 700px;
+  /* background-color: aqua; */
+}
+
+.nav > ul  {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: beige; */
+  height: 120px;
+}

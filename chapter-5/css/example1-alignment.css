@@ -1,0 +1,30 @@
+.container {
+  width: 90%;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* Οριζόντια στοίχιση */
+  /* justify-content: center; */
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+
+  /* Κατακόρυφη στοίχιση */
+  /* align-items: start; */
+  /* align-items: end; */
+  align-items: center;
+  /* For stretch not height to childs */
+  /* align-items: stretch; */
+}
+
+div[class^="box"] {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 5px 0;
+}
