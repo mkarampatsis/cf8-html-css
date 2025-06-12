@@ -1,0 +1,53 @@
+.container {
+  width: 800px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+  /* position: relative; */
+}
+
+.box1 {
+  border:1px solid black;
+  padding: 80px;
+  background-color: aqua;
+}
+
+.box2 {
+  border:1px solid black;
+  padding: 80px;
+  background-color: purple;
+}
+
+.box3 {
+  border: 1px solid black;
+  padding: 80px;
+  background-color: brown;
+}
+
+.item-relative {
+  position: relative;
+  top: 25px;
+  left:25px;
+}
+
+.item-absolute {
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.item-fixed {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+}
+
+.z-front {
+  z-index:1;
+}
