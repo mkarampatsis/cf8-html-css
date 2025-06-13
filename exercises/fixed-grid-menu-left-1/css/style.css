@@ -20,11 +20,11 @@ body {
 }
 
 header {
-  flex: 25%;
+  /* flex: 25%; */
 }
 
 main {
-  flex: 75%;
+  /* flex: 75%; */
   height: 100vh;
   overflow: auto;
 }
@@ -32,6 +32,11 @@ main {
 /* Displays */
 .d-flex {
   display: flex;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
 }
 
 .d-block {
@@ -104,5 +109,14 @@ main {
   .flex-row {
     flex-direction: column;
   }
+  .d-grid {
+    grid-template-columns: 100%;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
 }
 
