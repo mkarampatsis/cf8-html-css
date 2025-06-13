@@ -27,6 +27,7 @@ main {
   /* flex: 75%; */
   height: 100vh;
   overflow: auto;
+  margin-top: 100px;
 }
 
 /* Displays */
@@ -45,6 +46,38 @@ main {
 
 .flex-row {
   flex-direction: row;
+}
+
+
+/* Bars and X Styling */
+.side-menu:checked ~ label > .humb {
+  display: none;
+}
+
+.side-menu:checked ~ label > .humb-x {
+  display: block;
+}
+
+.side-menu:checked ~ nav {
+  display: block;
+}
+
+.side-menu {
+  display: none;
+}
+
+.humb {
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  display: none;
+}
+
+.humb-x {
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  display: none;
 }
 
 /* Colors */
@@ -118,5 +151,16 @@ main {
     width: 100%;
   }
 
+  main {
+    margin-top: 250px;
+  }
+
+  .humb {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
 }
 
