@@ -1,0 +1,41 @@
+:root {
+  --navy: #002E94;
+  --wedding: #FFE7CC;
+  --beige:#E1CEB5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  flex: 25%;
+}
+
+main {
+  flex: 75%;
+}
+
+/* Displays */
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+/* Colors */
+.bg-navy {
+  background-color: var(--navy);
+}
+
+.text-wedding {
+  color: var(--wedding);
+}
