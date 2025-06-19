@@ -1,3 +1,15 @@
 .bg-dark {
   background-color: #006994!important;
 }
+
+header {
+  background-image: url(../../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.line {
+  background-color: #006994;
+}
