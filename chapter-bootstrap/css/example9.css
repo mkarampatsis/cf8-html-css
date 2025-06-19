@@ -13,3 +13,20 @@ header {
 .line {
   background-color: #006994;
 }
+
+.card-img {
+  height: 250px;
+  border-radius: 10%;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+.card {
+  border: none
+}
+
+footer a {
+  color: white
+}
