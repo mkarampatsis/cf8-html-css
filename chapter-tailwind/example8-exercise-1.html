@@ -8,58 +8,70 @@
   <title>Document</title>
 </head>
 <body>
-  <div>
+  <div class="container sm: max-w-sm mx-auto">
     <!-- Card -->
-    <div>
-      <div>
+    <div class="border border-gray-300 rounded-lg shadow-lg mt-3">
+      <div class="p-4">
 
         <!-- Title -->
-         <div>Create Account</div>
-         <div>Get started with your account</div>
+         <div class="text-center text-lg font-bold mb-1">Create Account</div>
+         <div class="text-center text-sm text-gray-500 mb-1">Get started with your account</div>
 
         <!-- Social Login Button -->
-         <div>
-          <a href="">Login via X</a>
+         <div class="flex text-center mb-2">
+          <a class="bg-blue-500 text-white py-2 px-4 rounded-md w-full" href="">
+            <i class="bi bi-twitter-x"></i>
+            Login via X
+          </a>
          </div>
 
-         <div>
-          <a href="">Login via Facebook</a>
+         <div class="flex text-center mb-2">
+          <a class="bg-blue-500 text-white py-2 px-4 rounded-md w-full" href="">
+            <i class="bi bi-facebook"></i>
+            Login via Facebook
+          </a>
         </div>
 
         <!-- Divider -->
 
-        <div>
+        <div class="text-center text-gray-500 mb-2">
           <span>OR</span>
         </div>
 
         <!-- Form -->
         <form>
           <!-- Username -->
-           <div>
-              <input type="text" placeholder="Username">
+           <div class="border rounded-md mb-3 flex">
+              <span class="px-3 bg-gray-100 py-2 rounded-md text-gray-600">
+                <i class="bi bi-person"></i>
+              </span>
+              <input class="p-2  w-full outline-none" type="text" placeholder="Username">
            </div>
 
            <!-- Password -->
-           <div>
-              <input type="password" placeholder="Password">
+           <div class="border rounded-md flex mb-3">
+              <span class="px-3 bg-gray-100 py-2 rounded-md text-gray-600">
+                <i class="bi bi-lock"></i>
+              </span>
+              <input class="p-2 outline-none w-full" type="password" placeholder="Password">
            </div>
 
            <!-- Submit Button -->
-            <div>
-              <button>
+            <div class="text-center mb-3">
+              <button class="bg-green-500  text-white py-2 px-4 rounded-md hover:bg-green-600">
                 Create Account
               </button>
             </div>
         </form>
 
         <!-- Footer -->
-        <div>
+        <div class="text-center text-sm text-gray-500">
           <span>
             Have an Account? 
-            <a href="">Log in</a>
+            <a class="text-blue-500 hover:underline" href="">Log in</a>
           </span>
         </div>
-        
+
       </div>
     </div>
   </div>
