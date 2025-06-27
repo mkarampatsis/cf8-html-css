@@ -19,24 +19,57 @@
       </div>
 
       <!-- Toggle Button -->
-      <button>
-
-      </button>
-
+      <div class="md:hidden"> 
+        <button id="nav-toggle">
+          <span id="menu-open" class="h-6 w-6"><i class="bi bi-list"></i></span>
+          <span id="menu-close" class="h-6 w-6 hidden"><i class="bi bi-x-lg"></i></span>
+        </button>
+      </div>
+      
       <!-- Navigation Links -->
-      <div class="flex space-x-4">
-        <div>
+      <div id="nav-menu" class="hidden md:flex space-x-4">
+        <div class="group relative">
           <a href="">
             Services
-            <span class="bg-blue-500"></span>
+            <!-- Underine -->
+            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-1000"></span>
           </a>
+
+          <!-- SubMenu -->
+           <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-md w-40">
+            <a href="" class="block px-4 py-2 text-gray-700 hover:bg-gray-400">Web Design</a>
+            <a href="" class="block px-4 py-2 text-gray-700 hover:bg-gray-400">SEO</a>
+            <a href="" class="block px-4 py-2 text-gray-700 hover:bg-gray-400">Marketing</a>
+           </div>
         </div>
         <a href="">About</a>
         <a href="">Contact</a>  
       </div>
-
     </div>
+
+    <!-- Mobile Menu -->
+     <div id="mobile-menu" class="hidden md:hidden">
+        <div>
+          <a href="" class="block text-gray-700 py-2 px-2 hover:text-gray-900">Services</a>
+        </div>
+        <a href="" class="block text-gray-700 py-2 px-2 hover:text-gray-900">About</a>
+        <a href="" class="block text-gray-700 py-2 px-2 hover:text-gray-900">Contact</a>
+     </div>
   </nav>
+
+  <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const menuOpenIcon = document.getElementById('menu-open');
+    const menuCloseIcon = document.getElementById('menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+
+    navToggle.addEventListener('click', () => {
+      menuOpenIcon.classList.toggle('hidden');
+      menuCloseIcon.classList.toggle('hidden')
+      mobileMenu.classList.toggle('hidden');
+    })
+  </script>
 
 </body>
 </html>
